@@ -10,6 +10,16 @@ function circumference(diameter) {
 
 (circumference(15))
 
+function funcCaller() {
+    calledFunction()
+}
+
+function calledFunction(){
+    console.log("Im a function being called by another function")
+}
+
+funcCaller()
+
 function recurrence() {
     console.log("RECUR!!!")
     recurrence()
