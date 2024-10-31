@@ -11,7 +11,9 @@ function circumference(diameter) {
 (circumference(15))
 
 function funcCaller() {
+    console.log("This is the first statement")
     calledFunction()
+    console.log("third console log")
 }
 
 function calledFunction(){
@@ -24,5 +26,7 @@ function recurrence() {
     console.log("RECUR!!!")
     recurrence()
 }
+
+greet() //The function works fine. currently there is not a parameter so it shows as "undefined"
 
 recurrence()
