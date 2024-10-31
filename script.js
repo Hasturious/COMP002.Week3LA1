@@ -9,3 +9,10 @@ function circumference(diameter) {
 }
 
 (circumference(15))
+
+function recurrence() {
+    console.log("RECUR!!!")
+    recurrence()
+}
+
+recurrence()
