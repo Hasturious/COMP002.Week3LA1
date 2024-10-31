@@ -3,3 +3,9 @@ function greet(name) {
 }
 
 (greet("Jean"))
+
+function circumference(diameter) {
+    console.log(2*3.14*diameter/2)
+}
+
+(circumference(15))
